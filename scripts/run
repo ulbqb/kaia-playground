@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-export PATH="$PWD/../build/bin:$PATH"
 ROOTDIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
 if [ "$#" -lt 1 ]; then
